@@ -7,11 +7,11 @@ public class Zombie extends Monster {
 
     @Override
     public void basicAttack(Number value) {
-
+        System.out.println("I' am Zombie. I' am hitting!");
     }
 
     @Override
     public void specialAttack(Number value) {
-
+        System.out.println("I' am Zombie. I' am biting!");
     }
 }
