@@ -6,6 +6,12 @@ public abstract class Monster implements Moving, Fight {
     private double coordinateX = 0.0d;
     private double coordinateY = 0.0d;
 
+    public Monster() {};
+    public Monster(double coordinateX, double coordinateY) {
+        this.coordinateX = coordinateX;
+        this.coordinateY = coordinateY;
+    }
+
     public double countDistance(Monster obj) {
         double x = Math.pow(obj.coordinateX - this.coordinateX, 2);
         double y = Math.pow(obj.coordinateY - this.coordinateY, 2);
