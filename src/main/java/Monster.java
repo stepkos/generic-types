@@ -6,7 +6,7 @@ public abstract class Monster implements Moving, Fight {
     private double coordinateX = 0.0d;
     private double coordinateY = 0.0d;
 
-    public Monster() {};
+    public Monster() {}
     public Monster(double coordinateX, double coordinateY) {
         this.coordinateX = coordinateX;
         this.coordinateY = coordinateY;
