@@ -4,3 +4,4 @@ public interface Moving {
     void goLeft(Number value);
     void goRight(Number value);
 }
+
